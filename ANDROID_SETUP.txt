@@ -1,0 +1,8 @@
+To generate the Android platform folder for this Flutter source:
+  flutter create --platforms=android .
+Then:
+  flutter pub get
+  flutter run
+  flutter build apk --release
+
+No APK is included because a Flutter/Android build environment is not available in this file-generation step.
